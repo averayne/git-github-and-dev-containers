@@ -108,19 +108,19 @@ To learn more about cloning, read ["Cloning a Repository"](https://docs.github.c
 
 <img src="./assets/clone-1.png" width="500">
 
-1. Copy the **HTTP** URL for the repository (Do not copy the SSH or GitHub CLI option).
+2. Copy the **HTTP** URL for the repository (Do not copy the SSH or GitHub CLI option).
 
 <img src="./assets/clone-2.png" width="500">
 
-1. Open Terminal.
-2. Change the current working directory to the location where you want the cloned directory.
-3. Type `git clone`, and then paste the URL you copied earlier.
+3. Open Terminal.
+4. Change the current working directory to the location where you want the cloned directory.
+5. Type `git clone`, and then paste the URL you copied earlier.
 
 ```
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
-1. Press **Enter** to create your local clone.
+6. Press **Enter** to create your local clone.
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
