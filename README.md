@@ -1,10 +1,10 @@
 # :wave: Your Local Dev Environment
 
+**IMPORTANT:** Every time you see the ❗ there are tasks for you to do.
+
 ## 🤓 Course overview and learning outcomes
 
 The goal of this course is to give you a brief introduction to Git, GitHub, and Dev Containers. These are the tools you will need to succesfully work on exercises in your current course.
-
-**IMPORTANT:** Every time you see the ❗ there are tasks for you to do.
 
 ## :octocat: Git
 
