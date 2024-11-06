@@ -22,7 +22,8 @@ Once installed you should be able to run the `git` command from the terminal:
 $ git --version
 git version 2.47.0
 ```
-*Your version may be slightly different than the one shown here.
+
+\*Your version may be slightly different than the one shown here.
 
 Once you have git installed configure your name and email:
 
@@ -48,7 +49,7 @@ $ gh --version
 gh version 2.60.1 (2024-10-25)
 ```
 
-*Your version may be slightly different than the one shown here.
+\*Your version may be slightly different than the one shown here.
 
 Once the `gh` cli is installed you will need to login to GitHub. Run `gh auth login` from your terminal and follow the prompts as below:
 
@@ -80,9 +81,11 @@ Many development environments, like Visual Studio Code, support development cont
 2. Install and configure [Docker Desktop](https://www.docker.com/products/docker-desktop/) for your operating system.
 3. Run the Docker Desktop application to start Docker. You will know it's running if you look in the activity tray and see the Docker whale icon. Docker might take a few minutes to start. If the whale icon is animated, it is probably still in the process of starting. You can click on the icon to see the status.
 4. Once Docker is running, you can confirm that everything is working by opening a new terminal window and typing the command:
+
 ```
 $ docker --version
 ```
+
 5. Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 6. Check installation. With the Dev Containers extension installed, you will see a new Status bar item at the far left.
 
@@ -103,19 +106,22 @@ To learn more about cloning, read ["Cloning a Repository"](https://docs.github.c
 
 1. Above the list of files, click **<> Code**.
 
-![clone-1](./assets/clone-1.png)
+<img src="./assets/clone-1.png" width="500">
 
-2. Copy the **HTTP** URL for the repository (Do not copy the SSH or GitHub CLI option).
+1. Copy the **HTTP** URL for the repository (Do not copy the SSH or GitHub CLI option).
 
-![clone-2](./assets/clone-2.png)
+<img src="./assets/clone-2.png" width="500">
 
-3. Open Terminal.
-4. Change the current working directory to the location where you want the cloned directory.
-5. Type `git clone`, and then paste the URL you copied earlier.
+1. Open Terminal.
+2. Change the current working directory to the location where you want the cloned directory.
+3. Type `git clone`, and then paste the URL you copied earlier.
+
 ```
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
-6. Press **Enter** to create your local clone.
+
+1. Press **Enter** to create your local clone.
+
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Cloning into `YOUR-REPOSITORY`...
@@ -129,11 +135,11 @@ You should now see a folder with the name of your repository in your current dir
 
 #### Open in Dev Container
 
-1. Open 
+1. Open
 
 ### Using markdown files
 
-You can add some fun styling to your issues, pull requests, and files (Typically ending in *.md).  ["Markdown"](https://guides.github.com/features/mastering-markdown/) is an easy way to style your issues, pull requests, and files with some simple syntax. This can be helpful to organize your information and make it easier for others to read. You can also drop in gifs and images to help convey your point!
+You can add some fun styling to your issues, pull requests, and files (Typically ending in \*.md). ["Markdown"](https://guides.github.com/features/mastering-markdown/) is an easy way to style your issues, pull requests, and files with some simple syntax. This can be helpful to organize your information and make it easier for others to read. You can also drop in gifs and images to help convey your point!
 To learn more about using GitHub’s flavor of markdown, read ["Basic Writing and Formatting Syntax"](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
 
 This README you are reading is a markdown file. You can see the source code by clicking the pencil at the top of this README.
@@ -152,6 +158,7 @@ Once you have a commit (or multiple commits) that you’re ready to add to your 
 #### ❗ Commit and push your changes
 
 Run `git status`. This is the main tool you use to determine which files are in which state. If you created your ABOUTME.md file, you should see something like this:
+
 ```bash
 $ git status
 On branch main
@@ -218,7 +225,6 @@ To https://github.com/YOUR-USERNAME/github-starter-course.git
 ```
 
 You should now see your ABOUTME.md file in your repository on GitHub.com
-
 
 ## 💻 GitHub terms to know
 
