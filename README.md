@@ -66,7 +66,7 @@ Once you have logged into GitHub, Run the `gh auth setup-git` command from your 
 $ gh auth setup-git
 ```
 
-## :octocat: Understanding the GitHub flow
+## :octocat: Understanding your Local Development Workflow flow
 
 The GitHub flow is a lightweight workflow that allows you to experiment and collaborate on your projects easily, without the risk of losing your previous work.
 
@@ -108,9 +108,9 @@ To learn more about using GitHub’s flavor of markdown, read ["Basic Writing an
 
 This README you are reading is a markdown file. You can see the source code by clicking the pencil at the top of this README.
 
-#### ❗Create ABOUTME.md
+#### ❗ Create ABOUTME.md
 
-1. In the repository you cloned locally create a new file called **AUTHOR.md**
+1. In the repository you cloned locally create a new file called **ABOUTME.md**
 2. Add some markdown with some information about your self.
 
 ### Committing and pushing
@@ -218,10 +218,10 @@ To learn more about pull requests, read ["About Pull Requests"](https://docs.git
 
 1. Go to you repository on Github.com
 2. Click on the **Pull Requests** tab at the top of the repository.
-3. You should see one pull request automatially created for you titled "Feedback". Click into this PR. This is where your instructor will leave feedback on your exercises.
+3. You should see one pull request automatically created for you titled "Feedback". Click into this PR. This is where your instructor will leave feedback on your exercises.
 4. If you click on the "Files Changed" tab you will see a diff of every file changed.
 
-Pull requests are a useful tool for reviewing code changes before they are merged into a repository. When working in Software teams it is common to use pull requests to have teammates review your code before they care merged into your main or production branch.
+Pull requests are a useful tool for reviewing code changes before they are merged into a repository or branch. When working on software teams it is common to use pull requests to have teammates review your code before they ca be merged into your main or production branches.
 
 ### Your user profile
 
