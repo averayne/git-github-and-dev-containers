@@ -135,9 +135,18 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 You should now see a folder with the name of your repository in your current directory containing a copy of all of the files in the repository.
 
-#### Open in Dev Container
+#### ❗ Open in Dev Container
 
-1. Open
+1. Start VS Code and open the code for your repository.
+2. Run the **Dev Containers: Reopen in Container** command from the Command Palette (F1) or quick actions Status bar item.
+
+![](./assets/dev-container-0.png)
+
+3. The VS Code window will reload and start building the dev container. A progress notification provides status updates. You only have to build a dev container the first time you open it; opening the folder after the first successful build will be much quicker.
+
+![](./assets/dev-container-2.png)
+
+4. After the build completes, VS Code will automatically connect to the container. Your terminal should for ubuntu linux no matter what your computer operating system is and all necessary tools shoul dbe installed for you.
 
 ### Using markdown files
 
