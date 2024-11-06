@@ -66,9 +66,29 @@ Once you have logged into GitHub, Run the `gh auth setup-git` command from your 
 $ gh auth setup-git
 ```
 
+## Dev Containers
+
+Imagine you're working on a project with a bunch of tools, libraries, and settings on your computer. But then, you pass that project to a friend, and they can't get it to work on their computer because their setup is a little different from yours. This is a common issue in software development, and development containers help solve it.
+
+A development container is like a mini-computer inside your computer. It has its own environment, including a specific operating system, versions of programming languages, tools, libraries, and configurations that the project needs to run properly. By putting your project inside this container, you can make sure it works the same way for everyone, regardless of their computer's setup.
+
+Many development environments, like Visual Studio Code, support development containers. This means you can open a project, and it will set up the container for you automatically.
+
+#### ❗ Install Docker and Dev Containers
+
+1. You need [Visual Studio Code](https://code.visualstudio.com/) installed
+2. Install and configure [Docker Desktop](https://www.docker.com/products/docker-desktop/) for your operating system.
+3. Run the Docker Desktop application to start Docker. You will know it's running if you look in the activity tray and see the Docker whale icon. Docker might take a few minutes to start. If the whale icon is animated, it is probably still in the process of starting. You can click on the icon to see the status.
+4. Once Docker is running, you can confirm that everything is working by opening a new terminal window and typing the command:
+```
+$ docker --version
+```
+5. Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+6. Check installation. With the Dev Containers extension installed, you will see a new Status bar item at the far left.
+
 ## :octocat: Understanding your Local Development Workflow flow
 
-The GitHub flow is a lightweight workflow that allows you to experiment and collaborate on your projects easily, without the risk of losing your previous work.
+The git workflow is a lightweight workflow that allows you to experiment and collaborate on your projects easily, without the risk of losing your previous work.
 
 ### Repositories
 
@@ -82,7 +102,13 @@ To learn more about cloning, read ["Cloning a Repository"](https://docs.github.c
 #### :exclamation: Clone this repository
 
 1. Above the list of files, click **<> Code**.
+
+![clone-1](./assets/clone-1.png)
+
 2. Copy the **HTTP** URL for the repository (Do not copy the SSH or GitHub CLI option).
+
+![clone-2](./assets/clone-2.png)
+
 3. Open Terminal.
 4. Change the current working directory to the location where you want the cloned directory.
 5. Type `git clone`, and then paste the URL you copied earlier.
@@ -100,6 +126,10 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
 You should now see a folder with the name of your repository in your current directory containing a copy of all of the files in the repository.
+
+#### Open in Dev Container
+
+1. Open 
 
 ### Using markdown files
 
