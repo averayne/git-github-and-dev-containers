@@ -89,6 +89,8 @@ $ docker --version
 5. Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 6. Check installation. With the Dev Containers extension installed, you will see a new Status bar item at the far left.
 
+<img src="./assets/dev-container-1.png" width="250" />
+
 ## :octocat: Understanding your Local Development Workflow flow
 
 The git workflow is a lightweight workflow that allows you to experiment and collaborate on your projects easily, without the risk of losing your previous work.
