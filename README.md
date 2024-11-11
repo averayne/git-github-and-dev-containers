@@ -6,6 +6,10 @@
 
 The goal of this course is to give you a brief introduction to Git, GitHub, and Dev Containers. These are the tools you will need to succesfully work on exercises in your current course.
 
+#### ❗ Install Homebrew (Mac Users Only)
+
+Homebrew is a popular package manager for macOS (and Linux) that simplifies the installation of software and development tools. Instead of manually downloading and configuring each tool or dependency, you can use Homebrew to install them with a single command in the terminal. It's like an "app store" for command-line tools, making it easy to keep software up to date and manage dependencies. Homebrew is especially useful for developers who need various tools (like Git, Node.js, or Python) because it streamlines the setup and installation process, saving time and effort. Follow the installation instructions [here](https://brew.sh/).
+
 ## :octocat: Git
 
 Git is a **distributed Version Control System (VCS)**, which means it is a useful tool for easily tracking changes to your code, collaborating, and sharing. With Git you can track the changes you make to your project so you always have a record of what you’ve worked on and can easily revert back to an older version if need be. It also makes working with others easier—groups of people can work together on the same project and merge their changes into one final source!
