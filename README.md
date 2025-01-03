@@ -16,7 +16,7 @@ Git is a **distributed Version Control System (VCS)**, which means it is a usefu
 
 #### :exclamation: Git CLI
 
-A CLI is a Command Line Interface. It is a tool that allows us to run commans from a terminal.
+A CLI is a Command Line Interface. It is a tool that allows us to run commands from a terminal.
 
 In order to use Git, you need to make sure the Git CLI it is installed on your computer. If it’s already installed, it’s a good idea to update to the latest version. You can either install it as a package or via another installer, or download the source code and compile it yourself. Follow the instruction [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to install or update to the latest git cli version.
 
@@ -32,8 +32,8 @@ git version 2.47.0
 Once you have git installed configure your name and email:
 
 ```bash
-git config --global user.email "you@atlasschool.com"
-git config --global user.name "Your Name"
+$ git config --global user.email "you@atlasschool.com"
+$ git config --global user.name "Your Name"
 ```
 
 ## :octocat: GitHub
@@ -288,8 +288,6 @@ Create your profile README. Let the world know a little bit more about you! What
 - [A short video explaining what GitHub is](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be)
 - [Git and GitHub learning resources](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources)
 - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-- [How to use GitHub branches](https://www.youtube.com/watch?v=H5GJfcp3p4Q&feature=youtu.be)
 - [Interactive Git training materials](https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class)
-- [GitHub's Learning Lab](https://lab.github.com/)
 - [Education community forum](https://education.github.community/)
 - [GitHub community forum](https://github.community/)
