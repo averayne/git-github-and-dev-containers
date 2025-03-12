@@ -2,9 +2,9 @@
 
 **IMPORTANT:** Every time you see the ❗ there are tasks for you to do.
 
-## 🤓 Course overview and learning outcomes
+## 🤓 Activity overview and learning outcomes
 
-The goal of this course is to give you a brief introduction to Git, GitHub, and Dev Containers. These are the tools you will need to succesfully work on exercises in your current course.
+The goal of this activity is to give you a brief introduction to Git, GitHub, and Dev Containers. These are the tools you will need to succesfully work on assignments in your courses.
 
 #### ❗ Install Homebrew (Mac Users Only)
 
@@ -40,7 +40,7 @@ $ git config --global user.name "Your Name"
 
 GitHub is a way to use the same power of Git all online with an easy-to-use interface. It’s used across the software world and beyond to collaborate and maintain the history of projects.
 
-GitHub is home to some of the most advanced technologies in the world. Whether you're visualizing data or building a new game, there's a whole community and set of tools on GitHub that can get you to the next step. This course starts with the basics of GitHub, but we'll dig into the rest later.
+GitHub is home to some of the most advanced technologies in the world. Whether you're visualizing data or building a new game, there's a whole community and set of tools on GitHub that can get you to the next step. This  starts with the basics of GitHub, but we'll dig into the rest later.
 
 #### :exclamation: GitHub CLI
 
@@ -235,7 +235,7 @@ Delta compression using up to 12 threads
 Compressing objects: 100% (2/2), done.
 Writing objects: 100% (3/3), 327 bytes | 327.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-To https://github.com/YOUR-USERNAME/github-starter-course.git
+To https://github.com/YOUR-USERNAME/github-starter-.git
    55982ed..28762b2  main -> main
 ```
 
